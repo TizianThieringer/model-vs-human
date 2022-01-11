@@ -578,3 +578,10 @@ def resnet50_clip_soft_labels(model_name, *args):
                                                     "/ResNet50_clip_soft_labels.pth", map_location='cpu')
     model.load_state_dict(checkpoint["state_dict"])
     return PyTorchModel(model, model_name, *args)
+
+
+@register_model("pytorch")
+def shufflenet_test(model_name, *args):
+    import torchvision.models as zoomodels
+    model = zoomodels.shufflenet_v2_x1_0(pretrained=True)
+    return PyTorchModel(model, model_name, *args)
