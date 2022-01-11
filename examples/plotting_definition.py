@@ -30,6 +30,12 @@ def plotting_definition_template(df):
     decision_makers.append(DecisionMaker(name_pattern="shufflenet_test",
                            color=rgb(65, 90, 140), marker="o", df=df,
                            plotting_name="Shufflenet"))
+    decision_makers.append(DecisionMaker(name_pattern="bagnet33",
+                           color=rgb(110, 110, 110), marker="o", df=df,
+                           plotting_name="BagNet-33"))
+    decision_makers.append(DecisionMaker(name_pattern="simclr_resnet50x1",
+                           color=rgb(210, 150, 0), marker="o", df=df,
+                           plotting_name="SimCLR-x1"))
     decision_makers.append(DecisionMaker(name_pattern="subject-*",
                            color=rgb(165, 30, 55), marker="D", df=df,
                            plotting_name="humans"))
