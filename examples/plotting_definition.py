@@ -27,7 +27,7 @@ def plotting_definition_template(df):
 
     decision_makers = []
 
-    decision_makers.append(DecisionMaker(name_pattern="shufflenet_test",
+    decision_makers.append(DecisionMaker(name_pattern="dino_v8",
                            color=rgb(65, 90, 140), marker="o", df=df,
                            plotting_name="Shufflenet"))
     decision_makers.append(DecisionMaker(name_pattern="bagnet33",
