@@ -585,3 +585,11 @@ def shufflenet_test(model_name, *args):
     import torchvision.models as zoomodels
     model = zoomodels.shufflenet_v2_x1_0(pretrained=True)
     return PyTorchModel(model, model_name, *args)
+
+
+
+@register_model("pytorch")
+def dino_v8(model_name, *args):
+    model = torch.hub.load('facebookresearch/dino:main',
+                           'dino_vitb8')
+    return PyTorchModel(model, model_name, *args)

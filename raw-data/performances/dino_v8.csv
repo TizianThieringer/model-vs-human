@@ -1,0 +1,20 @@
+subj,dataset_name,metric_name,performance
+dino_v8,edge,accuracy (top-1),0.125
+dino_v8,silhouette,accuracy (top-1),0.15
+dino_v8,cue-conflict,accuracy (top-1),0.0640625
+dino_v8,colour,accuracy (top-1),0.071875
+dino_v8,contrast,accuracy (top-1),0.05078125
+dino_v8,high-pass,accuracy (top-1),0.06328125
+dino_v8,low-pass,accuracy (top-1),0.0625
+dino_v8,phase-scrambling,accuracy (top-1),0.054464285714285715
+dino_v8,power-equalisation,accuracy (top-1),0.055357142857142855
+dino_v8,false-colour,accuracy (top-1),0.07232142857142858
+dino_v8,rotation,accuracy (top-1),0.05546875
+dino_v8,eidolonI,accuracy (top-1),0.06640625
+dino_v8,eidolonII,accuracy (top-1),0.0640625
+dino_v8,eidolonIII,accuracy (top-1),0.06015625
+dino_v8,uniform-noise,accuracy (top-1),0.05390625
+dino_v8,sketch,accuracy (top-1),0.07875
+dino_v8,sketch,accuracy (top-5),0.2975
+dino_v8,stylized,accuracy (top-1),0.0575
+dino_v8,stylized,accuracy (top-5),0.2875
