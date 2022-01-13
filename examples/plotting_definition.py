@@ -29,7 +29,7 @@ def plotting_definition_template(df):
 
     decision_makers.append(DecisionMaker(name_pattern="dino_v8",
                            color=rgb(65, 90, 140), marker="o", df=df,
-                           plotting_name="DINO"))
+                           plotting_name="DINO_Test"))
     decision_makers.append(DecisionMaker(name_pattern="bagnet33",
                            color=rgb(110, 110, 110), marker="o", df=df,
                            plotting_name="BagNet-33"))
