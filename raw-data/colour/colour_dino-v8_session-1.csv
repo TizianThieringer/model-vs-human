@@ -8,9 +8,9 @@ dino_v8,1,6,NaN,elephant,elephant,cr,0006_cl_dnn_cr_elephant_40_n02504013_6731.p
 dino_v8,1,7,NaN,bottle,bottle,cr,0007_cl_dnn_cr_bottle_40_n02823428_987.png
 dino_v8,1,8,NaN,truck,truck,cr,0008_cl_dnn_cr_truck_40_n03417042_7458.png
 dino_v8,1,9,NaN,chair,chair,bw,0009_cl_dnn_bw_chair_40_n04099969_4577.png
-dino_v8,1,10,NaN,chair,knife,cr,0010_cl_dnn_cr_knife_40_n03041632_83472.png
+dino_v8,1,10,NaN,knife,knife,cr,0010_cl_dnn_cr_knife_40_n03041632_83472.png
 dino_v8,1,11,NaN,elephant,elephant,bw,0011_cl_dnn_bw_elephant_40_n02504458_3485.png
-dino_v8,1,12,NaN,elephant,bear,bw,0012_cl_dnn_bw_bear_40_n02133161_1066.png
+dino_v8,1,12,NaN,bear,bear,bw,0012_cl_dnn_bw_bear_40_n02133161_1066.png
 dino_v8,1,13,NaN,elephant,elephant,bw,0013_cl_dnn_bw_elephant_40_n02504013_1060.png
 dino_v8,1,14,NaN,bear,bear,bw,0014_cl_dnn_bw_bear_40_n02134084_1009.png
 dino_v8,1,15,NaN,cat,cat,cr,0015_cl_dnn_cr_cat_40_n02125311_13383.png
@@ -32,7 +32,7 @@ dino_v8,1,30,NaN,cat,cat,bw,0030_cl_dnn_bw_cat_40_n02123394_916.png
 dino_v8,1,31,NaN,elephant,elephant,cr,0031_cl_dnn_cr_elephant_40_n02504458_3525.png
 dino_v8,1,32,NaN,bear,bear,bw,0032_cl_dnn_bw_bear_40_n02134418_4456.png
 dino_v8,1,33,NaN,keyboard,keyboard,bw,0033_cl_dnn_bw_keyboard_40_n03085013_24045.png
-dino_v8,1,34,NaN,knife,knife,bw,0034_cl_dnn_bw_knife_40_n03041632_49363.png
+dino_v8,1,34,NaN,oven,knife,bw,0034_cl_dnn_bw_knife_40_n03041632_49363.png
 dino_v8,1,35,NaN,cat,cat,bw,0035_cl_dnn_bw_cat_40_n02123159_7854.png
 dino_v8,1,36,NaN,knife,knife,cr,0036_cl_dnn_cr_knife_40_n03041632_4708.png
 dino_v8,1,37,NaN,chair,chair,cr,0037_cl_dnn_cr_chair_40_n04429376_7788.png
@@ -47,7 +47,7 @@ dino_v8,1,45,NaN,car,car,bw,0045_cl_dnn_bw_car_40_n04285008_7770.png
 dino_v8,1,46,NaN,bottle,bottle,cr,0046_cl_dnn_cr_bottle_40_n03983396_15260.png
 dino_v8,1,47,NaN,dog,dog,cr,0047_cl_dnn_cr_dog_40_n02091635_6519.png
 dino_v8,1,48,NaN,elephant,elephant,cr,0048_cl_dnn_cr_elephant_40_n02504013_3485.png
-dino_v8,1,49,NaN,oven,oven,cr,0049_cl_dnn_cr_oven_40_n04111531_807.png
+dino_v8,1,49,NaN,clock,oven,cr,0049_cl_dnn_cr_oven_40_n04111531_807.png
 dino_v8,1,50,NaN,oven,oven,cr,0050_cl_dnn_cr_oven_40_n04111531_605.png
 dino_v8,1,51,NaN,dog,dog,bw,0051_cl_dnn_bw_dog_40_n02109047_2662.png
 dino_v8,1,52,NaN,truck,truck,cr,0052_cl_dnn_cr_truck_40_n03417042_16038.png
@@ -59,7 +59,7 @@ dino_v8,1,57,NaN,bird,bird,bw,0057_cl_dnn_bw_bird_40_n01616318_26436.png
 dino_v8,1,58,NaN,oven,oven,cr,0058_cl_dnn_cr_oven_40_n04111531_9498.png
 dino_v8,1,59,NaN,bear,bear,bw,0059_cl_dnn_bw_bear_40_n02134418_397.png
 dino_v8,1,60,NaN,chair,chair,cr,0060_cl_dnn_cr_chair_40_n04099969_23961.png
-dino_v8,1,61,NaN,elephant,dog,bw,0061_cl_dnn_bw_dog_40_n02093256_7181.png
+dino_v8,1,61,NaN,dog,dog,bw,0061_cl_dnn_bw_dog_40_n02093256_7181.png
 dino_v8,1,62,NaN,bicycle,bicycle,cr,0062_cl_dnn_cr_bicycle_40_n02835271_26731.png
 dino_v8,1,63,NaN,cat,cat,cr,0063_cl_dnn_cr_cat_40_n02125311_12557.png
 dino_v8,1,64,NaN,dog,dog,cr,0064_cl_dnn_cr_dog_40_n02093647_2890.png
@@ -117,7 +117,7 @@ dino_v8,1,115,NaN,elephant,elephant,cr,0115_cl_dnn_cr_elephant_40_n02504013_1033
 dino_v8,1,116,NaN,cat,cat,cr,0116_cl_dnn_cr_cat_40_n02123394_1594.png
 dino_v8,1,117,NaN,bicycle,bear,bw,0117_cl_dnn_bw_bear_40_n02132136_10654.png
 dino_v8,1,118,NaN,bottle,bottle,bw,0118_cl_dnn_bw_bottle_40_n02823428_5265.png
-dino_v8,1,119,NaN,airplane,truck,cr,0119_cl_dnn_cr_truck_40_n04467665_3125.png
+dino_v8,1,119,NaN,truck,truck,cr,0119_cl_dnn_cr_truck_40_n04467665_3125.png
 dino_v8,1,120,NaN,airplane,airplane,cr,0120_cl_dnn_cr_airplane_40_n02690373_60.png
 dino_v8,1,121,NaN,keyboard,keyboard,cr,0121_cl_dnn_cr_keyboard_40_n03085013_21645.png
 dino_v8,1,122,NaN,car,car,bw,0122_cl_dnn_bw_car_40_n03100240_9471.png
@@ -370,12 +370,12 @@ dino_v8,1,368,NaN,airplane,airplane,cr,0368_cl_dnn_cr_airplane_40_n02690373_2059
 dino_v8,1,369,NaN,keyboard,keyboard,cr,0369_cl_dnn_cr_keyboard_40_n03085013_19483.png
 dino_v8,1,370,NaN,bicycle,bicycle,bw,0370_cl_dnn_bw_bicycle_40_n03792782_2960.png
 dino_v8,1,371,NaN,keyboard,keyboard,cr,0371_cl_dnn_cr_keyboard_40_n03085013_24538.png
-dino_v8,1,372,NaN,dog,cat,cr,0372_cl_dnn_cr_cat_40_n02123597_9656.png
+dino_v8,1,372,NaN,cat,cat,cr,0372_cl_dnn_cr_cat_40_n02123597_9656.png
 dino_v8,1,373,NaN,car,car,cr,0373_cl_dnn_cr_car_40_n04285008_1085.png
 dino_v8,1,374,NaN,dog,dog,cr,0374_cl_dnn_cr_dog_40_n02102177_5870.png
 dino_v8,1,375,NaN,boat,boat,cr,0375_cl_dnn_cr_boat_40_n03662601_24852.png
 dino_v8,1,376,NaN,bicycle,bicycle,cr,0376_cl_dnn_cr_bicycle_40_n03792782_32379.png
-dino_v8,1,377,NaN,dog,cat,cr,0377_cl_dnn_cr_cat_40_n02123597_12266.png
+dino_v8,1,377,NaN,cat,cat,cr,0377_cl_dnn_cr_cat_40_n02123597_12266.png
 dino_v8,1,378,NaN,airplane,airplane,cr,0378_cl_dnn_cr_airplane_40_n02690373_713.png
 dino_v8,1,379,NaN,airplane,airplane,cr,0379_cl_dnn_cr_airplane_40_n02690373_6543.png
 dino_v8,1,380,NaN,oven,oven,cr,0380_cl_dnn_cr_oven_40_n04111531_5888.png
@@ -399,7 +399,7 @@ dino_v8,1,397,NaN,cat,cat,cr,0397_cl_dnn_cr_cat_40_n02123159_782.png
 dino_v8,1,398,NaN,keyboard,keyboard,bw,0398_cl_dnn_bw_keyboard_40_n04505470_464.png
 dino_v8,1,399,NaN,bird,bird,cr,0399_cl_dnn_cr_bird_40_n01558993_3939.png
 dino_v8,1,400,NaN,boat,boat,cr,0400_cl_dnn_cr_boat_40_n04273569_3052.png
-dino_v8,1,401,NaN,keyboard,knife,bw,0401_cl_dnn_bw_knife_40_n03041632_85416.png
+dino_v8,1,401,NaN,knife,knife,bw,0401_cl_dnn_bw_knife_40_n03041632_85416.png
 dino_v8,1,402,NaN,car,car,bw,0402_cl_dnn_bw_car_40_n02814533_51154.png
 dino_v8,1,403,NaN,airplane,airplane,bw,0403_cl_dnn_bw_airplane_40_n02690373_6516.png
 dino_v8,1,404,NaN,airplane,airplane,cr,0404_cl_dnn_cr_airplane_40_n02690373_12813.png
@@ -465,19 +465,19 @@ dino_v8,1,463,NaN,clock,clock,bw,0463_cl_dnn_bw_clock_40_n02708093_544.png
 dino_v8,1,464,NaN,bear,bear,cr,0464_cl_dnn_cr_bear_40_n02133161_7604.png
 dino_v8,1,465,NaN,car,car,bw,0465_cl_dnn_bw_car_40_n03100240_15407.png
 dino_v8,1,466,NaN,bicycle,bicycle,bw,0466_cl_dnn_bw_bicycle_40_n02835271_12926.png
-dino_v8,1,467,NaN,boat,chair,cr,0467_cl_dnn_cr_chair_40_n03376595_2056.png
+dino_v8,1,467,NaN,oven,chair,cr,0467_cl_dnn_cr_chair_40_n03376595_2056.png
 dino_v8,1,468,NaN,oven,oven,bw,0468_cl_dnn_bw_oven_40_n04111531_9762.png
 dino_v8,1,469,NaN,bicycle,bicycle,bw,0469_cl_dnn_bw_bicycle_40_n03792782_25799.png
 dino_v8,1,470,NaN,oven,oven,cr,0470_cl_dnn_cr_oven_40_n04111531_3570.png
 dino_v8,1,471,NaN,car,car,cr,0471_cl_dnn_cr_car_40_n04285008_874.png
-dino_v8,1,472,NaN,boat,bottle,cr,0472_cl_dnn_cr_bottle_40_n04557648_364.png
+dino_v8,1,472,NaN,car,bottle,cr,0472_cl_dnn_cr_bottle_40_n04557648_364.png
 dino_v8,1,473,NaN,airplane,airplane,bw,0473_cl_dnn_bw_airplane_40_n02690373_8461.png
 dino_v8,1,474,NaN,boat,boat,cr,0474_cl_dnn_cr_boat_40_n04273569_1087.png
 dino_v8,1,475,NaN,chair,chair,cr,0475_cl_dnn_cr_chair_40_n03376595_1798.png
 dino_v8,1,476,NaN,oven,oven,cr,0476_cl_dnn_cr_oven_40_n04111531_5290.png
 dino_v8,1,477,NaN,cat,cat,bw,0477_cl_dnn_bw_cat_40_n02124075_12369.png
 dino_v8,1,478,NaN,elephant,elephant,bw,0478_cl_dnn_bw_elephant_40_n02504458_3714.png
-dino_v8,1,479,NaN,bicycle,bicycle,bw,0479_cl_dnn_bw_bicycle_40_n03792782_7388.png
+dino_v8,1,479,NaN,bottle,bicycle,bw,0479_cl_dnn_bw_bicycle_40_n03792782_7388.png
 dino_v8,1,480,NaN,truck,truck,cr,0480_cl_dnn_cr_truck_40_n03796401_18240.png
 dino_v8,1,481,NaN,airplane,airplane,cr,0481_cl_dnn_cr_airplane_40_n02690373_610.png
 dino_v8,1,482,NaN,airplane,airplane,bw,0482_cl_dnn_bw_airplane_40_n02690373_6046.png
@@ -490,7 +490,7 @@ dino_v8,1,488,NaN,bear,bear,cr,0488_cl_dnn_cr_bear_40_n02133161_12868.png
 dino_v8,1,489,NaN,keyboard,keyboard,bw,0489_cl_dnn_bw_keyboard_40_n04505470_4107.png
 dino_v8,1,490,NaN,boat,boat,bw,0490_cl_dnn_bw_boat_40_n03662601_855.png
 dino_v8,1,491,NaN,bird,bird,cr,0491_cl_dnn_cr_bird_40_n02017213_7558.png
-dino_v8,1,492,NaN,knife,bottle,bw,0492_cl_dnn_bw_bottle_40_n04557648_23801.png
+dino_v8,1,492,NaN,bottle,bottle,bw,0492_cl_dnn_bw_bottle_40_n04557648_23801.png
 dino_v8,1,493,NaN,bird,bird,bw,0493_cl_dnn_bw_bird_40_n01601694_13054.png
 dino_v8,1,494,NaN,oven,oven,bw,0494_cl_dnn_bw_oven_40_n04111531_2207.png
 dino_v8,1,495,NaN,bird,bird,bw,0495_cl_dnn_bw_bird_40_n02009912_9425.png
@@ -551,7 +551,7 @@ dino_v8,1,549,NaN,clock,clock,bw,0549_cl_dnn_bw_clock_40_n03196217_127.png
 dino_v8,1,550,NaN,boat,boat,bw,0550_cl_dnn_bw_boat_40_n04273569_12917.png
 dino_v8,1,551,NaN,airplane,airplane,cr,0551_cl_dnn_cr_airplane_40_n02690373_9626.png
 dino_v8,1,552,NaN,bear,bear,cr,0552_cl_dnn_cr_bear_40_n02134084_20500.png
-dino_v8,1,553,NaN,elephant,bear,bw,0553_cl_dnn_bw_bear_40_n02132136_6890.png
+dino_v8,1,553,NaN,bear,bear,bw,0553_cl_dnn_bw_bear_40_n02132136_6890.png
 dino_v8,1,554,NaN,bottle,bottle,bw,0554_cl_dnn_bw_bottle_40_n02823428_3049.png
 dino_v8,1,555,NaN,keyboard,keyboard,cr,0555_cl_dnn_cr_keyboard_40_n03085013_22837.png
 dino_v8,1,556,NaN,keyboard,keyboard,bw,0556_cl_dnn_bw_keyboard_40_n03085013_3264.png
@@ -679,7 +679,7 @@ dino_v8,1,677,NaN,oven,oven,bw,0677_cl_dnn_bw_oven_40_n04111531_8193.png
 dino_v8,1,678,NaN,boat,boat,bw,0678_cl_dnn_bw_boat_40_n03344393_11855.png
 dino_v8,1,679,NaN,bottle,bottle,bw,0679_cl_dnn_bw_bottle_40_n02823428_6830.png
 dino_v8,1,680,NaN,bottle,bottle,bw,0680_cl_dnn_bw_bottle_40_n02823428_3298.png
-dino_v8,1,681,NaN,bicycle,oven,bw,0681_cl_dnn_bw_oven_40_n04111531_615.png
+dino_v8,1,681,NaN,oven,oven,bw,0681_cl_dnn_bw_oven_40_n04111531_615.png
 dino_v8,1,682,NaN,clock,clock,cr,0682_cl_dnn_cr_clock_40_n03196217_9736.png
 dino_v8,1,683,NaN,clock,clock,cr,0683_cl_dnn_cr_clock_40_n03196217_6293.png
 dino_v8,1,684,NaN,bicycle,bicycle,cr,0684_cl_dnn_cr_bicycle_40_n02835271_15524.png
@@ -792,7 +792,7 @@ dino_v8,1,790,NaN,bird,bird,bw,0790_cl_dnn_bw_bird_40_n02002724_1459.png
 dino_v8,1,791,NaN,keyboard,keyboard,bw,0791_cl_dnn_bw_keyboard_40_n03085013_23800.png
 dino_v8,1,792,NaN,boat,boat,cr,0792_cl_dnn_cr_boat_40_n02951358_30622.png
 dino_v8,1,793,NaN,boat,boat,bw,0793_cl_dnn_bw_boat_40_n02951358_4128.png
-dino_v8,1,794,NaN,bicycle,clock,bw,0794_cl_dnn_bw_clock_40_n03196217_2414.png
+dino_v8,1,794,NaN,clock,clock,bw,0794_cl_dnn_bw_clock_40_n03196217_2414.png
 dino_v8,1,795,NaN,bicycle,bicycle,bw,0795_cl_dnn_bw_bicycle_40_n03792782_3705.png
 dino_v8,1,796,NaN,cat,cat,bw,0796_cl_dnn_bw_cat_40_n02123597_9939.png
 dino_v8,1,797,NaN,oven,oven,bw,0797_cl_dnn_bw_oven_40_n04111531_8263.png
@@ -894,7 +894,7 @@ dino_v8,1,892,NaN,chair,chair,cr,0892_cl_dnn_cr_chair_40_n03376595_9813.png
 dino_v8,1,893,NaN,elephant,elephant,bw,0893_cl_dnn_bw_elephant_40_n02504013_53.png
 dino_v8,1,894,NaN,dog,dog,bw,0894_cl_dnn_bw_dog_40_n02092002_10760.png
 dino_v8,1,895,NaN,dog,dog,cr,0895_cl_dnn_cr_dog_40_n02106662_9600.png
-dino_v8,1,896,NaN,dog,bottle,bw,0896_cl_dnn_bw_bottle_40_n04557648_2523.png
+dino_v8,1,896,NaN,bottle,bottle,bw,0896_cl_dnn_bw_bottle_40_n04557648_2523.png
 dino_v8,1,897,NaN,knife,knife,bw,0897_cl_dnn_bw_knife_40_n03041632_27575.png
 dino_v8,1,898,NaN,airplane,airplane,bw,0898_cl_dnn_bw_airplane_40_n02690373_2514.png
 dino_v8,1,899,NaN,bicycle,bicycle,bw,0899_cl_dnn_bw_bicycle_40_n03792782_818.png
@@ -909,7 +909,7 @@ dino_v8,1,907,NaN,knife,knife,bw,0907_cl_dnn_bw_knife_40_n03041632_32337.png
 dino_v8,1,908,NaN,truck,truck,cr,0908_cl_dnn_cr_truck_40_n04467665_11299.png
 dino_v8,1,909,NaN,chair,chair,cr,0909_cl_dnn_cr_chair_40_n03376595_1135.png
 dino_v8,1,910,NaN,truck,truck,bw,0910_cl_dnn_bw_truck_40_n03796401_713.png
-dino_v8,1,911,NaN,cat,keyboard,cr,0911_cl_dnn_cr_keyboard_40_n03085013_20398.png
+dino_v8,1,911,NaN,keyboard,keyboard,cr,0911_cl_dnn_cr_keyboard_40_n03085013_20398.png
 dino_v8,1,912,NaN,bottle,bottle,cr,0912_cl_dnn_cr_bottle_40_n03983396_2053.png
 dino_v8,1,913,NaN,cat,cat,bw,0913_cl_dnn_bw_cat_40_n02123159_6041.png
 dino_v8,1,914,NaN,dog,dog,bw,0914_cl_dnn_bw_dog_40_n02090721_4088.png
@@ -1012,7 +1012,7 @@ dino_v8,1,1010,NaN,airplane,airplane,cr,1010_cl_dnn_cr_airplane_40_n02690373_457
 dino_v8,1,1011,NaN,knife,knife,cr,1011_cl_dnn_cr_knife_40_n03041632_9759.png
 dino_v8,1,1012,NaN,dog,dog,cr,1012_cl_dnn_cr_dog_40_n02093991_434.png
 dino_v8,1,1013,NaN,chair,chair,bw,1013_cl_dnn_bw_chair_40_n02791124_14.png
-dino_v8,1,1014,NaN,knife,oven,cr,1014_cl_dnn_cr_oven_40_n04111531_12080.png
+dino_v8,1,1014,NaN,oven,oven,cr,1014_cl_dnn_cr_oven_40_n04111531_12080.png
 dino_v8,1,1015,NaN,bird,bird,cr,1015_cl_dnn_cr_bird_40_n02013706_9024.png
 dino_v8,1,1016,NaN,elephant,elephant,bw,1016_cl_dnn_bw_elephant_40_n02504013_4071.png
 dino_v8,1,1017,NaN,truck,truck,bw,1017_cl_dnn_bw_truck_40_n04467665_30683.png
@@ -1065,7 +1065,7 @@ dino_v8,1,1063,NaN,knife,knife,cr,1063_cl_dnn_cr_knife_40_n03041632_29276.png
 dino_v8,1,1064,NaN,dog,dog,bw,1064_cl_dnn_bw_dog_40_n02090721_464.png
 dino_v8,1,1065,NaN,airplane,airplane,cr,1065_cl_dnn_cr_airplane_40_n02690373_7145.png
 dino_v8,1,1066,NaN,truck,truck,cr,1066_cl_dnn_cr_truck_40_n03796401_17616.png
-dino_v8,1,1067,NaN,knife,knife,cr,1067_cl_dnn_cr_knife_40_n03041632_27929.png
+dino_v8,1,1067,NaN,bicycle,knife,cr,1067_cl_dnn_cr_knife_40_n03041632_27929.png
 dino_v8,1,1068,NaN,boat,boat,cr,1068_cl_dnn_cr_boat_40_n03344393_661.png
 dino_v8,1,1069,NaN,knife,knife,bw,1069_cl_dnn_bw_knife_40_n03041632_33739.png
 dino_v8,1,1070,NaN,keyboard,keyboard,bw,1070_cl_dnn_bw_keyboard_40_n03085013_7440.png
@@ -1078,7 +1078,7 @@ dino_v8,1,1076,NaN,keyboard,keyboard,cr,1076_cl_dnn_cr_keyboard_40_n04505470_459
 dino_v8,1,1077,NaN,bicycle,bicycle,cr,1077_cl_dnn_cr_bicycle_40_n03792782_11115.png
 dino_v8,1,1078,NaN,car,car,bw,1078_cl_dnn_bw_car_40_n04285008_8784.png
 dino_v8,1,1079,NaN,keyboard,keyboard,cr,1079_cl_dnn_cr_keyboard_40_n03085013_35084.png
-dino_v8,1,1080,NaN,bottle,bottle,cr,1080_cl_dnn_cr_bottle_40_n04579145_1134.png
+dino_v8,1,1080,NaN,oven,bottle,cr,1080_cl_dnn_cr_bottle_40_n04579145_1134.png
 dino_v8,1,1081,NaN,bottle,bottle,bw,1081_cl_dnn_bw_bottle_40_n02823428_1154.png
 dino_v8,1,1082,NaN,clock,clock,cr,1082_cl_dnn_cr_clock_40_n04548280_5237.png
 dino_v8,1,1083,NaN,keyboard,keyboard,bw,1083_cl_dnn_bw_keyboard_40_n03085013_3632.png
@@ -1113,7 +1113,7 @@ dino_v8,1,1111,NaN,bottle,bottle,bw,1111_cl_dnn_bw_bottle_40_n04560804_29208.png
 dino_v8,1,1112,NaN,airplane,airplane,bw,1112_cl_dnn_bw_airplane_40_n02690373_6992.png
 dino_v8,1,1113,NaN,boat,boat,cr,1113_cl_dnn_cr_boat_40_n03344393_4496.png
 dino_v8,1,1114,NaN,cat,cat,bw,1114_cl_dnn_bw_cat_40_n02123045_6773.png
-dino_v8,1,1115,NaN,car,oven,bw,1115_cl_dnn_bw_oven_40_n04111531_14329.png
+dino_v8,1,1115,NaN,oven,oven,bw,1115_cl_dnn_bw_oven_40_n04111531_14329.png
 dino_v8,1,1116,NaN,airplane,airplane,cr,1116_cl_dnn_cr_airplane_40_n02690373_16250.png
 dino_v8,1,1117,NaN,cat,cat,bw,1117_cl_dnn_bw_cat_40_n02123159_7851.png
 dino_v8,1,1118,NaN,clock,clock,cr,1118_cl_dnn_cr_clock_40_n03196217_3267.png
@@ -1165,7 +1165,7 @@ dino_v8,1,1163,NaN,keyboard,keyboard,bw,1163_cl_dnn_bw_keyboard_40_n04505470_447
 dino_v8,1,1164,NaN,keyboard,keyboard,bw,1164_cl_dnn_bw_keyboard_40_n04505470_2907.png
 dino_v8,1,1165,NaN,oven,oven,bw,1165_cl_dnn_bw_oven_40_n04111531_7189.png
 dino_v8,1,1166,NaN,chair,chair,bw,1166_cl_dnn_bw_chair_40_n04429376_12337.png
-dino_v8,1,1167,NaN,boat,oven,cr,1167_cl_dnn_cr_oven_40_n04111531_8959.png
+dino_v8,1,1167,NaN,oven,oven,cr,1167_cl_dnn_cr_oven_40_n04111531_8959.png
 dino_v8,1,1168,NaN,clock,clock,cr,1168_cl_dnn_cr_clock_40_n04548280_2988.png
 dino_v8,1,1169,NaN,boat,boat,bw,1169_cl_dnn_bw_boat_40_n03344393_6458.png
 dino_v8,1,1170,NaN,bicycle,dog,cr,1170_cl_dnn_cr_dog_40_n02110185_7540.png
@@ -1252,7 +1252,7 @@ dino_v8,1,1250,NaN,elephant,elephant,bw,1250_cl_dnn_bw_elephant_40_n02504013_195
 dino_v8,1,1251,NaN,bear,bear,cr,1251_cl_dnn_cr_bear_40_n02134084_1201.png
 dino_v8,1,1252,NaN,car,car,bw,1252_cl_dnn_bw_car_40_n02814533_14335.png
 dino_v8,1,1253,NaN,bird,bird,cr,1253_cl_dnn_cr_bird_40_n02009912_24304.png
-dino_v8,1,1254,NaN,car,car,cr,1254_cl_dnn_cr_car_40_n02814533_7769.png
+dino_v8,1,1254,NaN,clock,car,cr,1254_cl_dnn_cr_car_40_n02814533_7769.png
 dino_v8,1,1255,NaN,bottle,bottle,cr,1255_cl_dnn_cr_bottle_40_n03983396_3899.png
 dino_v8,1,1256,NaN,chair,chair,bw,1256_cl_dnn_bw_chair_40_n04099969_17412.png
 dino_v8,1,1257,NaN,dog,dog,bw,1257_cl_dnn_bw_dog_40_n02109961_26101.png
