@@ -490,6 +490,15 @@ def clip(model_name, *args):
 
 
 @register_model("pytorch")
+def clip_16(model_name, *args):
+    import clip
+    model, _ = clip.load("ViT-B/16")
+#    model.cuda()
+#    model = torch.nn.DataParallel(model)
+    return ClipPyTorchModel(model, model_name, *args)
+
+
+@register_model("pytorch")
 def clipRN50(model_name, *args):
     import clip
     model, _ = clip.load("RN50")
@@ -592,4 +601,11 @@ def shufflenet_test(model_name, *args):
 def dino_v8(model_name, *args):
     model = torch.hub.load('facebookresearch/dino:main',
                            'dino_vitb8')
+    return PyTorchModel(model, model_name, *args)
+
+
+@register_model("pytorch")
+def autoencoder_vit_b(model_name, *args):
+    from .autoencoders.vit_b import get_model
+    model = get_model()
     return PyTorchModel(model, model_name, *args)

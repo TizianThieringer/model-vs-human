@@ -22,7 +22,6 @@ class LinearClassifier(nn.Module):
 
     def forward(self, x):
         # flatten
-        print('shape: ', x.shape)
         x = x.view(x.size(0), -1)
 
         # linear layer

@@ -26,3 +26,8 @@ def mobilenet_v1(model_name, *args):
 def inception_v1(model_name, *args):
     model = build_model_from_hub(model_name)
     return TensorFlowModel(model, model_name, *args)
+
+@register_model("tensorflow")
+def mlp_mixer(model_name, *args):
+    model = build_model_from_hub(model_name)
+    return TensorFlowModel(model, model_name, *args)

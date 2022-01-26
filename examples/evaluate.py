@@ -4,7 +4,8 @@ from plotting_definition import plotting_definition_template
 
 
 def run_evaluation():
-    models = ["dino_v8"]
+    models = ["clip_16"]
+#    datasets = ["colour"]
     datasets = c.DEFAULT_DATASETS # or e.g. ["cue-conflict", "uniform-noise"]
     params = {"batch_size": 64, "print_predictions": True, "num_workers": 20}
     Evaluate()(models, datasets, **params)

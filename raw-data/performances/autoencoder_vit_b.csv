@@ -1,0 +1,20 @@
+subj,dataset_name,metric_name,performance
+autoencoder_vit_b,edge,accuracy (top-1),0.0625
+autoencoder_vit_b,silhouette,accuracy (top-1),0.0625
+autoencoder_vit_b,cue-conflict,accuracy (top-1),0.065625
+autoencoder_vit_b,colour,accuracy (top-1),0.0734375
+autoencoder_vit_b,contrast,accuracy (top-1),0.065625
+autoencoder_vit_b,high-pass,accuracy (top-1),0.06640625
+autoencoder_vit_b,low-pass,accuracy (top-1),0.0765625
+autoencoder_vit_b,phase-scrambling,accuracy (top-1),0.06875
+autoencoder_vit_b,power-equalisation,accuracy (top-1),0.07053571428571428
+autoencoder_vit_b,false-colour,accuracy (top-1),0.07678571428571429
+autoencoder_vit_b,rotation,accuracy (top-1),0.08359375
+autoencoder_vit_b,eidolonI,accuracy (top-1),0.08203125
+autoencoder_vit_b,eidolonII,accuracy (top-1),0.07109375
+autoencoder_vit_b,eidolonIII,accuracy (top-1),0.08125
+autoencoder_vit_b,uniform-noise,accuracy (top-1),0.06953125
+autoencoder_vit_b,sketch,accuracy (top-1),0.06
+autoencoder_vit_b,sketch,accuracy (top-5),0.31125
+autoencoder_vit_b,stylized,accuracy (top-1),0.06375
+autoencoder_vit_b,stylized,accuracy (top-5),0.315
