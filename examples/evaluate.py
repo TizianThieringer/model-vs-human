@@ -4,10 +4,10 @@ from plotting_definition import plotting_definition_template
 
 
 def run_evaluation():
-    models = ["resnet50"]
+    models = ["efficientnet_l2_noisy_student_475"]
 #    datasets = ["colour"]
     datasets = c.DEFAULT_DATASETS # or e.g. ["cue-conflict", "uniform-noise"]
-    params = {"batch_size": 64, "print_predictions": True, "num_workers": 20}
+    params = {"batch_size": 16, "print_predictions": True, "num_workers": 20}
     Evaluate()(models, datasets, **params)
 
 

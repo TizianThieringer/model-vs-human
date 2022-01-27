@@ -1,0 +1,20 @@
+subj,dataset_name,metric_name,performance
+efficientnet_l2_noisy_student_475,edge,accuracy (top-1),0.91875
+efficientnet_l2_noisy_student_475,silhouette,accuracy (top-1),0.76875
+efficientnet_l2_noisy_student_475,cue-conflict,accuracy (top-1),0.5546875
+efficientnet_l2_noisy_student_475,colour,accuracy (top-1),0.9953125
+efficientnet_l2_noisy_student_475,contrast,accuracy (top-1),0.9640625
+efficientnet_l2_noisy_student_475,high-pass,accuracy (top-1),0.8890625
+efficientnet_l2_noisy_student_475,low-pass,accuracy (top-1),0.534375
+efficientnet_l2_noisy_student_475,phase-scrambling,accuracy (top-1),0.6875
+efficientnet_l2_noisy_student_475,power-equalisation,accuracy (top-1),0.9910714285714286
+efficientnet_l2_noisy_student_475,false-colour,accuracy (top-1),0.9955357142857143
+efficientnet_l2_noisy_student_475,rotation,accuracy (top-1),0.98671875
+efficientnet_l2_noisy_student_475,eidolonI,accuracy (top-1),0.4953125
+efficientnet_l2_noisy_student_475,eidolonII,accuracy (top-1),0.4859375
+efficientnet_l2_noisy_student_475,eidolonIII,accuracy (top-1),0.43046875
+efficientnet_l2_noisy_student_475,uniform-noise,accuracy (top-1),0.6609375
+efficientnet_l2_noisy_student_475,sketch,accuracy (top-1),0.905
+efficientnet_l2_noisy_student_475,sketch,accuracy (top-5),0.975
+efficientnet_l2_noisy_student_475,stylized,accuracy (top-1),0.7225
+efficientnet_l2_noisy_student_475,stylized,accuracy (top-5),0.8875

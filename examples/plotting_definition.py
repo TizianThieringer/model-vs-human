@@ -46,10 +46,13 @@ def plotting_definition_template(df):
                            color=rgb(197, 121, 115), marker="o", df=df,
                            plotting_name="CLIP_32"))
     decision_makers.append(DecisionMaker(name_pattern="simclr_resnet50x1",
-                           color=rgb(0, 0, 0), marker="o", df=df,
+                           color=rgb(181, 212, 227), marker="o", df=df,
                            plotting_name="SIMCLR"))
     decision_makers.append(DecisionMaker(name_pattern="resnet50",
-                           color=rgb(225, 188, 188), marker="o", df=df,
+                           color=rgb(127, 182, 210), marker="o", df=df,
+                           plotting_name="ResNet50"))
+    decision_makers.append(DecisionMaker(name_pattern="efficientnet_l2_noisy_student_475",
+                           color=rgb(80, 170, 200), marker="o", df=df,
                            plotting_name="ResNet50"))
     decision_makers.append(DecisionMaker(name_pattern="subject-*",
                            color=rgb(165, 30, 55), marker="D", df=df,
