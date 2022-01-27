@@ -4,7 +4,7 @@ from plotting_definition import plotting_definition_template
 
 
 def run_evaluation():
-    models = ["convnext_large"]
+    models = ["resnet50"]
 #    datasets = ["colour"]
     datasets = c.DEFAULT_DATASETS # or e.g. ["cue-conflict", "uniform-noise"]
     params = {"batch_size": 64, "print_predictions": True, "num_workers": 20}
@@ -14,7 +14,7 @@ def run_evaluation():
 def run_plotting():
     plot_types = c.DEFAULT_PLOT_TYPES # or e.g. ["accuracy", "shape-bias"]
     plotting_def = plotting_definition_template
-    figure_dirname = "all-new-models-figures/"
+    figure_dirname = "all-new-models-and-some-old-figures/"
     Plot(plot_types = plot_types, plotting_definition = plotting_def,
          figure_directory_name = figure_dirname)
 
