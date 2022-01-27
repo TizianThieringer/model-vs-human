@@ -1,8 +1,12 @@
 \begin{tabular}{lrrrr}
 \toprule
-    model & accuracy diff. $\downarrow$ & obs. consistency $\uparrow$ & error consistency $\uparrow$ & mean rank $\downarrow$ \\
+          model & accuracy diff. $\downarrow$ & obs. consistency $\uparrow$ & error consistency $\uparrow$ & mean rank $\downarrow$ \\
 \midrule
-BagNet-33 &              \textbf{0.284} &              \textbf{0.435} &               \textbf{0.051} &         \textbf{1.000} \\
+       clip\_16 &              \textbf{0.031} &              \textbf{0.761} &               \textbf{0.261} &         \textbf{1.000} \\
+convnext\_large &                       0.039 &                       0.758 &                        0.202 &                  2.000 \\
+           SWIN &                       0.040 &                       0.747 &                        0.201 &                  3.000 \\
+           DINO &                       0.083 &                       0.688 &                        0.185 &                  4.333 \\
+      MLP-mixer &                       0.097 &                       0.643 &                        0.190 &                  4.667 \\
 \bottomrule
 \end{tabular}
 

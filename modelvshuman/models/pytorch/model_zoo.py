@@ -493,8 +493,6 @@ def clip(model_name, *args):
 def clip_16(model_name, *args):
     import clip
     model, _ = clip.load("ViT-B/16")
-#    model.cuda()
-#    model = torch.nn.DataParallel(model)
     return ClipPyTorchModel(model, model_name, *args)
 
 
@@ -566,6 +564,27 @@ def BiTM_resnetv2_152x4(model_name, *args):
                            pretrained=True)
     return PyTorchModel(model, model_name, *args)
 
+@register_model("pytorch")
+def mlp_mixer(model_name, *args):
+    model = torch.hub.load(_PYTORCH_IMAGE_MODELS,
+                           "mixer_b16_224",
+                           pretrained=True)
+    return PyTorchModel(model, model_name, *args)
+
+@register_model("pytorch")
+def swin_large(model_name, *args):
+    model = torch.hub.load(_PYTORCH_IMAGE_MODELS,
+                           "swin_large_patch4_window7_224",
+                           pretrained=True)
+    return PyTorchModel(model, model_name, *args)
+
+@register_model("pytorch")
+def convnext_large(model_name, *args):
+    model = torch.hub.load(_PYTORCH_IMAGE_MODELS,
+                           "convnext_large_in22ft1k",
+                           pretrained=True)
+    return PyTorchModel(model, model_name, *args)
+
 
 @register_model("pytorch")
 def resnet50_clip_hard_labels(model_name, *args):
@@ -596,16 +615,30 @@ def shufflenet_test(model_name, *args):
     return PyTorchModel(model, model_name, *args)
 
 
+@register_model("pytorch")
+def barlow_twins(model_name, *args):
+    model = torch.hub.load('facebookresearch/barlowtwins:main', 
+                           'resnet50')
+    return PyTorchModel(model, model_name, *args)
+
+@register_model("pytorch")
+def byol(model_name, *args):
+    from .byol.byol import get_model
+    model = get_model()
+    return PyTorchModel(model, model_name, *args)
+
 
 @register_model("pytorch")
 def dino_v8(model_name, *args):
-    model = torch.hub.load('facebookresearch/dino:main',
-                           'dino_vitb8')
+    from .dino.vit_b import MyModel
+    model = MyModel()
     return PyTorchModel(model, model_name, *args)
 
 
-@register_model("pytorch")
-def autoencoder_vit_b(model_name, *args):
-    from .autoencoders.vit_b import get_model
-    model = get_model()
-    return PyTorchModel(model, model_name, *args)
+
+
+# @register_model("pytorch")
+# def autoencoder_vit_b(model_name, *args):
+#     from .autoencoders.vit_b import get_model
+#     model = get_model()
+#     return PyTorchModel(model, model_name, *args)

@@ -1,0 +1,20 @@
+subj,dataset_name,metric_name,performance
+barlow_twins,edge,accuracy (top-1),0.05625
+barlow_twins,silhouette,accuracy (top-1),0.08125
+barlow_twins,cue-conflict,accuracy (top-1),0.07265625
+barlow_twins,colour,accuracy (top-1),0.04609375
+barlow_twins,contrast,accuracy (top-1),0.0765625
+barlow_twins,high-pass,accuracy (top-1),0.07734375
+barlow_twins,low-pass,accuracy (top-1),0.090625
+barlow_twins,phase-scrambling,accuracy (top-1),0.06517857142857143
+barlow_twins,power-equalisation,accuracy (top-1),0.09107142857142857
+barlow_twins,false-colour,accuracy (top-1),0.08303571428571428
+barlow_twins,rotation,accuracy (top-1),0.06953125
+barlow_twins,eidolonI,accuracy (top-1),0.07890625
+barlow_twins,eidolonII,accuracy (top-1),0.0609375
+barlow_twins,eidolonIII,accuracy (top-1),0.078125
+barlow_twins,uniform-noise,accuracy (top-1),0.08046875
+barlow_twins,sketch,accuracy (top-1),0.04625
+barlow_twins,sketch,accuracy (top-5),0.30875
+barlow_twins,stylized,accuracy (top-1),0.0675
+barlow_twins,stylized,accuracy (top-5),0.33

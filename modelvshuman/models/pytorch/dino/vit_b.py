@@ -67,13 +67,17 @@ class MyModel(nn.Module):
 
 
 #Build whole model
+
+#Prepare DDP
 dist.init_process_group('gloo', init_method='file:///tmp/somefile', rank=0, world_size=1)
 
 #model = build_model()
 #linear_classifier = build_linear_classifier()
 model = MyModel()
 
-data = torch.ones((1, 3, 224, 224))
-print(model(data))
+#data = torch.ones((1, 3, 224, 224))
+#print(model(data))
+
+
 
 

@@ -1,0 +1,20 @@
+subj,dataset_name,metric_name,performance
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,edge,accuracy (top-1),0.1875
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,silhouette,accuracy (top-1),0.49375
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,cue-conflict,accuracy (top-1),0.1734375
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,colour,accuracy (top-1),0.9828125
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,contrast,accuracy (top-1),0.6859375
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,high-pass,accuracy (top-1),0.315625
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,low-pass,accuracy (top-1),0.42734375
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,phase-scrambling,accuracy (top-1),0.5133928571428571
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,power-equalisation,accuracy (top-1),0.8642857142857143
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,false-colour,accuracy (top-1),0.9660714285714286
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,rotation,accuracy (top-1),0.75078125
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,eidolonI,accuracy (top-1),0.46171875
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,eidolonII,accuracy (top-1),0.4359375
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,eidolonIII,accuracy (top-1),0.36171875
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,uniform-noise,accuracy (top-1),0.43828125
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,sketch,accuracy (top-1),0.65375
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,sketch,accuracy (top-5),0.84
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,stylized,accuracy (top-1),0.45
+resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN,stylized,accuracy (top-5),0.78125
