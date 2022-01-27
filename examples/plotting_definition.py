@@ -53,7 +53,7 @@ def plotting_definition_template(df):
                            plotting_name="ResNet50"))
     decision_makers.append(DecisionMaker(name_pattern="efficientnet_l2_noisy_student_475",
                            color=rgb(80, 170, 200), marker="o", df=df,
-                           plotting_name="ResNet50"))
+                           plotting_name="Noisy Student"))
     decision_makers.append(DecisionMaker(name_pattern="subject-*",
                            color=rgb(165, 30, 55), marker="D", df=df,
                            plotting_name="humans"))
