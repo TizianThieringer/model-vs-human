@@ -572,9 +572,16 @@ def mlp_mixer(model_name, *args):
     return PyTorchModel(model, model_name, *args)
 
 @register_model("pytorch")
+def mlp_mixer_in21(model_name, *args):
+    model = torch.hub.load(_PYTORCH_IMAGE_MODELS,
+                           "mixer_b16_224_in21k",
+                           pretrained=True)
+    return PyTorchModel(model, model_name, *args)
+
+@register_model("pytorch")
 def swin_large(model_name, *args):
     model = torch.hub.load(_PYTORCH_IMAGE_MODELS,
-                           "swin_large_patch4_window7_224",
+                           "swin_large_patch4_window7_224_in22k",
                            pretrained=True)
     return PyTorchModel(model, model_name, *args)
 

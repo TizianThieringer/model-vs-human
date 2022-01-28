@@ -4,9 +4,9 @@ from plotting_definition import plotting_definition_template
 
 
 def run_evaluation():
-    models = ["resnet50"]
-    datasets = ["colour"]
-#    datasets = c.DEFAULT_DATASETS # or e.g. ["cue-conflict", "uniform-noise"]
+    models = ["swin_large", "mlp_mixer"]
+#    datasets = ["colour"]
+    datasets = c.DEFAULT_DATASETS # or e.g. ["cue-conflict", "uniform-noise"]
     params = {"batch_size": 64, "print_predictions": True, "num_workers": 20}
     Evaluate()(models, datasets, **params)
 

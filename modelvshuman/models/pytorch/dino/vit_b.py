@@ -13,7 +13,6 @@ def build_model():
 class LinearClassifier(nn.Module):
     """Linear layer to train on top of frozen features"""
     def __init__(self, dim, num_labels=1000):
-        print('dim: ', dim)
         super(LinearClassifier, self).__init__()
         self.num_labels = num_labels
         self.linear = nn.Linear(dim, num_labels)
@@ -62,22 +61,15 @@ class MyModel(nn.Module):
             
         output = self.lin_layer(output)
         return output
-        #loss = nn.CrossEntropyLoss()(output, target)
 
 
 
 #Build whole model
 
 #Prepare DDP
-dist.init_process_group('gloo', init_method='file:///tmp/somefile', rank=0, world_size=1)
+#dist.init_process_group('gloo', init_method='file:///tmp/somefile', rank=0, world_size=1)
 
-#model = build_model()
-#linear_classifier = build_linear_classifier()
+
 model = MyModel()
-
-#data = torch.ones((1, 3, 224, 224))
-#print(model(data))
-
-
 
 
