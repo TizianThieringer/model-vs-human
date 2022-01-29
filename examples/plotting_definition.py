@@ -27,10 +27,10 @@ def plotting_definition_template(df):
 
     decision_makers = []
 
-    decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_l_in21",
+    decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_l",
                            color=rgb(65, 90, 140), marker="o", df=df,
                            plotting_name="MLP-mixer Large"))
-    decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_b_in21",
+    decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_b",
                            color=rgb(65, 90, 140), marker="o", df=df,
                            plotting_name="MLP-mixer Base"))
     decision_makers.append(DecisionMaker(name_pattern="convnext_large",

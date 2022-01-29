@@ -1,0 +1,20 @@
+subj,dataset_name,metric_name,performance
+mlp_mixer_l,edge,accuracy (top-1),0.25
+mlp_mixer_l,silhouette,accuracy (top-1),0.4375
+mlp_mixer_l,cue-conflict,accuracy (top-1),0.17890625
+mlp_mixer_l,colour,accuracy (top-1),0.95
+mlp_mixer_l,contrast,accuracy (top-1),0.69765625
+mlp_mixer_l,high-pass,accuracy (top-1),0.4328125
+mlp_mixer_l,low-pass,accuracy (top-1),0.33984375
+mlp_mixer_l,phase-scrambling,accuracy (top-1),0.46517857142857144
+mlp_mixer_l,power-equalisation,accuracy (top-1),0.7607142857142857
+mlp_mixer_l,false-colour,accuracy (top-1),0.9169642857142857
+mlp_mixer_l,rotation,accuracy (top-1),0.62421875
+mlp_mixer_l,eidolonI,accuracy (top-1),0.3828125
+mlp_mixer_l,eidolonII,accuracy (top-1),0.34453125
+mlp_mixer_l,eidolonIII,accuracy (top-1),0.31171875
+mlp_mixer_l,uniform-noise,accuracy (top-1),0.43359375
+mlp_mixer_l,sketch,accuracy (top-1),0.52625
+mlp_mixer_l,sketch,accuracy (top-5),0.77
+mlp_mixer_l,stylized,accuracy (top-1),0.33
+mlp_mixer_l,stylized,accuracy (top-5),0.65875
