@@ -1,0 +1,20 @@
+subj,dataset_name,metric_name,performance
+mlp_mixer_l_in21,edge,accuracy (top-1),0.0375
+mlp_mixer_l_in21,silhouette,accuracy (top-1),0.075
+mlp_mixer_l_in21,cue-conflict,accuracy (top-1),0.06015625
+mlp_mixer_l_in21,colour,accuracy (top-1),0.0828125
+mlp_mixer_l_in21,contrast,accuracy (top-1),0.08828125
+mlp_mixer_l_in21,high-pass,accuracy (top-1),0.07265625
+mlp_mixer_l_in21,low-pass,accuracy (top-1),0.07578125
+mlp_mixer_l_in21,phase-scrambling,accuracy (top-1),0.09196428571428572
+mlp_mixer_l_in21,power-equalisation,accuracy (top-1),0.08839285714285715
+mlp_mixer_l_in21,false-colour,accuracy (top-1),0.06964285714285715
+mlp_mixer_l_in21,rotation,accuracy (top-1),0.07578125
+mlp_mixer_l_in21,eidolonI,accuracy (top-1),0.071875
+mlp_mixer_l_in21,eidolonII,accuracy (top-1),0.07265625
+mlp_mixer_l_in21,eidolonIII,accuracy (top-1),0.0703125
+mlp_mixer_l_in21,uniform-noise,accuracy (top-1),0.065625
+mlp_mixer_l_in21,sketch,accuracy (top-1),0.06
+mlp_mixer_l_in21,sketch,accuracy (top-5),0.3275
+mlp_mixer_l_in21,stylized,accuracy (top-1),0.06375
+mlp_mixer_l_in21,stylized,accuracy (top-5),0.28

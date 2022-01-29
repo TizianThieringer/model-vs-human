@@ -27,15 +27,21 @@ def plotting_definition_template(df):
 
     decision_makers = []
 
-    decision_makers.append(DecisionMaker(name_pattern="mlp_mixer",
+    decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_l_in21",
                            color=rgb(65, 90, 140), marker="o", df=df,
-                           plotting_name="MLP-mixer"))
+                           plotting_name="MLP-mixer Large"))
+    decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_b_in21",
+                           color=rgb(65, 90, 140), marker="o", df=df,
+                           plotting_name="MLP-mixer Base"))
     decision_makers.append(DecisionMaker(name_pattern="convnext_large",
                            color=rgb(110, 110, 110), marker="o", df=df,
                            plotting_name="convnext_large"))
     decision_makers.append(DecisionMaker(name_pattern="swin_large",
                            color=rgb(210, 150, 0), marker="o", df=df,
-                           plotting_name="SWIN"))
+                           plotting_name="SWIN Large"))
+    decision_makers.append(DecisionMaker(name_pattern="swin_base",
+                           color=rgb(210, 150, 0), marker="o", df=df,
+                           plotting_name="SWIN Base"))
     decision_makers.append(DecisionMaker(name_pattern="dino_v8",
                            color=rgb(180, 160, 105), marker="o", df=df,
                            plotting_name="DINO"))
