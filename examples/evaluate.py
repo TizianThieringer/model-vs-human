@@ -4,7 +4,7 @@ from plotting_definition import plotting_definition_template
 
 
 def run_evaluation():
-    models = ["swin_large", "swin_base", "mlp_mixer_b", "mlp_mixer_l"]
+    models = ["convnext_base"]
 #    datasets = ["colour"]
     datasets = c.DEFAULT_DATASETS # or e.g. ["cue-conflict", "uniform-noise"]
     params = {"batch_size": 64, "print_predictions": True, "num_workers": 20}

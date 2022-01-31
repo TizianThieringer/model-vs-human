@@ -33,9 +33,12 @@ def plotting_definition_template(df):
     decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_b",
                            color=rgb(65, 90, 140), marker="o", df=df,
                            plotting_name="MLP-mixer Base"))
+    decision_makers.append(DecisionMaker(name_pattern="convnext_base",
+                           color=rgb(150, 110, 110), marker="o", df=df,
+                           plotting_name="Convnext Base"))
     decision_makers.append(DecisionMaker(name_pattern="convnext_large",
                            color=rgb(110, 110, 110), marker="o", df=df,
-                           plotting_name="convnext_large"))
+                           plotting_name="Convnext Large"))
     decision_makers.append(DecisionMaker(name_pattern="swin_large",
                            color=rgb(210, 150, 0), marker="o", df=df,
                            plotting_name="SWIN Large"))
@@ -46,7 +49,7 @@ def plotting_definition_template(df):
                            color=rgb(180, 160, 105), marker="o", df=df,
                            plotting_name="DINO"))
     decision_makers.append(DecisionMaker(name_pattern="clip_16",
-                           color=rgb(50, 30, 55), marker="o", df=df,
+                           color=rgb(217, 217, 214), marker="o", df=df,
                            plotting_name="CLIP_16"))
     decision_makers.append(DecisionMaker(name_pattern="clip",
                            color=rgb(197, 121, 115), marker="o", df=df,

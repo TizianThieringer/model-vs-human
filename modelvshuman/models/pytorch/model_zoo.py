@@ -593,6 +593,13 @@ def swin_base(model_name, *args):
     return PyTorchModel(model, model_name, *args)
 
 @register_model("pytorch")
+def convnext_base(model_name, *args):
+    model = torch.hub.load(_PYTORCH_IMAGE_MODELS,
+                           "convnext_base_in22ft1k",
+                           pretrained=True)
+    return PyTorchModel(model, model_name, *args)
+
+@register_model("pytorch")
 def convnext_large(model_name, *args):
     model = torch.hub.load(_PYTORCH_IMAGE_MODELS,
                            "convnext_large_in22ft1k",
