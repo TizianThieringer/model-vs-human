@@ -14,7 +14,7 @@ def run_evaluation():
 def run_plotting():
     plot_types = c.DEFAULT_PLOT_TYPES # or e.g. ["accuracy", "shape-bias"]
     plotting_def = plotting_definition_template
-    figure_dirname = "clip-presentation-figures/"
+    figure_dirname = "no-variants-presentation-figures/"
     Plot(plot_types = plot_types, plotting_definition = plotting_def,
          figure_directory_name = figure_dirname)
 

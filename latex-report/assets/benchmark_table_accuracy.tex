@@ -1,9 +1,15 @@
 \begin{tabular}{lrr}
 \toprule
-   model & OOD accuracy $\uparrow$ & rank $\downarrow$ \\
+        model & OOD accuracy $\uparrow$ & rank $\downarrow$ \\
 \midrule
-CLIP\_16 &          \textbf{0.743} &    \textbf{1.000} \\
-CLIP\_32 &                   0.708 &             2.000 \\
+Noisy Student &          \textbf{0.829} &    \textbf{1.000} \\
+Convnext Base &                   0.771 &             2.000 \\
+    SWIN Base &                   0.759 &             3.000 \\
+     CLIP\_16 &                   0.743 &             4.000 \\
+     CLIP\_32 &                   0.708 &             5.000 \\
+         DINO &                   0.665 &             6.000 \\
+       SIMCLR &                   0.596 &             7.000 \\
+     ResNet50 &                   0.559 &             8.000 \\
 \bottomrule
 \end{tabular}
 
