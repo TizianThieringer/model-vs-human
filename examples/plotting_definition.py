@@ -49,10 +49,10 @@ def plotting_definition_template(df):
 #                            color=rgb(105, 178, 205), marker="v", df=df,
 #                            plotting_name="DINO"))
     decision_makers.append(DecisionMaker(name_pattern="clip_16",
-                           color=rgb(197, 121, 115), marker="v", df=df,
+                           color=rgb(80, 170, 200), marker="v", df=df,
                            plotting_name="CLIP_16"))
     decision_makers.append(DecisionMaker(name_pattern="clip",
-                           color=rgb(216, 166, 159), marker="v", df=df,
+                           color=rgb(146, 195, 216), marker="v", df=df,
                            plotting_name="CLIP_32"))
 #     decision_makers.append(DecisionMaker(name_pattern="simclr_resnet50x1",
 #                            color=rgb(217, 217, 214), marker="o", df=df,
