@@ -49,7 +49,7 @@ def plotting_definition_template(df):
                            color=rgb(105, 178, 205), marker="v", df=df,
                            plotting_name="DINO"))
     decision_makers.append(DecisionMaker(name_pattern="clip_16",
-                           color=rgb(80, 170, 200), marker="v", df=df,
+                           color=rgb(56, 93, 56), marker="v", df=df,
                            plotting_name="CLIP_16"))
     decision_makers.append(DecisionMaker(name_pattern="clip",
                            color=rgb(146, 195, 216), marker="v", df=df,
