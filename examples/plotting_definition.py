@@ -27,21 +27,21 @@ def plotting_definition_template(df):
 
     decision_makers = []
 
-#     decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_l",
-#                            color=rgb(65, 117, 117), marker="o", df=df,
-#                            plotting_name="MLP-mixer Large"))
-#     decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_b",
-#                            color=rgb(65, 117, 117), marker="o", df=df,
-#                            plotting_name="MLP-mixer Base"))
+    decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_l",
+                           color=rgb(65, 117, 117), marker="o", df=df,
+                           plotting_name="MLP-mixer Large"))
+    decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_b",
+                           color=rgb(65, 117, 117), marker="o", df=df,
+                           plotting_name="MLP-mixer Base"))
     decision_makers.append(DecisionMaker(name_pattern="convnext_base",
                            color=rgb(150, 110, 110), marker="o", df=df,
                            plotting_name="Convnext Base"))
-#     decision_makers.append(DecisionMaker(name_pattern="convnext_large",
-#                            color=rgb(150, 110, 110), marker="o", df=df,
-#                            plotting_name="Convnext Large"))
-#     decision_makers.append(DecisionMaker(name_pattern="swin_large",
-#                            color=rgb(210, 150, 0), marker="v", df=df,
-#                            plotting_name="SWIN Large"))
+    decision_makers.append(DecisionMaker(name_pattern="convnext_large",
+                           color=rgb(150, 110, 110), marker="o", df=df,
+                           plotting_name="Convnext Large"))
+    decision_makers.append(DecisionMaker(name_pattern="swin_large",
+                           color=rgb(210, 150, 0), marker="v", df=df,
+                           plotting_name="SWIN Large"))
     decision_makers.append(DecisionMaker(name_pattern="swin_base",
                            color=rgb(210, 150, 0), marker="v", df=df,
                            plotting_name="SWIN Base"))
@@ -54,6 +54,9 @@ def plotting_definition_template(df):
     decision_makers.append(DecisionMaker(name_pattern="clip",
                            color=rgb(146, 195, 216), marker="v", df=df,
                            plotting_name="CLIP_32"))
+#    decision_makers.append(DecisionMaker(name_pattern="clip_L_14",
+#                           color=rgb(176, 225, 246), marker="v", df=df,
+#                           plotting_name="CLIP_L_14"))
     decision_makers.append(DecisionMaker(name_pattern="simclr_resnet50x1",
                            color=rgb(217, 217, 214), marker="o", df=df,
                            plotting_name="SIMCLR"))
@@ -63,6 +66,15 @@ def plotting_definition_template(df):
     decision_makers.append(DecisionMaker(name_pattern="efficientnet_l2_noisy_student_475",
                            color=rgb(217, 217, 214), marker="o", df=df,
                            plotting_name="Noisy Student"))
+    decision_makers.append(DecisionMaker(name_pattern="resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN",
+                           color=rgb(117, 117, 214), marker="o", df=df,
+                           plotting_name="SIN_and_IN_ft"))
+    decision_makers.append(DecisionMaker(name_pattern="resnet50_trained_on_SIN_and_IN",
+                           color=rgb(117, 117, 214), marker="o", df=df,
+                           plotting_name="SIN_and_IN"))    
+    decision_makers.append(DecisionMaker(name_pattern="resnet50_trained_on_SIN",
+                           color=rgb(117, 117, 214), marker="o", df=df,
+                           plotting_name="SIN"))    
     decision_makers.append(DecisionMaker(name_pattern="subject-*",
                            color=rgb(165, 30, 55), marker="D", df=df,
                            plotting_name="humans"))

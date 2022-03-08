@@ -495,6 +495,12 @@ def clip_16(model_name, *args):
     model, _ = clip.load("ViT-B/16")
     return ClipPyTorchModel(model, model_name, *args)
 
+@register_model("pytorch")
+def clip_L_14(model_name, *args):
+    import clip
+    model, _ = clip.load("ViT-L/14")
+    return ClipPyTorchModel(model, model_name, *args)
+
 
 @register_model("pytorch")
 def clipRN50(model_name, *args):
