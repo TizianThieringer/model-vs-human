@@ -52,7 +52,7 @@ def plotting_definition_template(df):
                            color=rgb(80, 170, 200), marker="v", df=df,
                            plotting_name="CLIP_16"))
     decision_makers.append(DecisionMaker(name_pattern="clip",
-                           color=rgb(146, 195, 216), marker="v", df=df,
+                           color=rgb(80, 170, 200), marker="v", df=df,
                            plotting_name="CLIP_32"))
 #    decision_makers.append(DecisionMaker(name_pattern="clip_L_14",
 #                           color=rgb(176, 225, 246), marker="v", df=df,
@@ -66,15 +66,15 @@ def plotting_definition_template(df):
     decision_makers.append(DecisionMaker(name_pattern="efficientnet_l2_noisy_student_475",
                            color=rgb(217, 217, 214), marker="o", df=df,
                            plotting_name="Noisy Student"))
-    decision_makers.append(DecisionMaker(name_pattern="resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN",
-                           color=rgb(117, 117, 214), marker="o", df=df,
-                           plotting_name="SIN_and_IN_ft"))
-    decision_makers.append(DecisionMaker(name_pattern="resnet50_trained_on_SIN_and_IN",
-                           color=rgb(117, 117, 214), marker="o", df=df,
-                           plotting_name="SIN_and_IN"))    
-    decision_makers.append(DecisionMaker(name_pattern="resnet50_trained_on_SIN",
-                           color=rgb(117, 117, 214), marker="o", df=df,
-                           plotting_name="SIN"))    
+#    decision_makers.append(DecisionMaker(name_pattern="resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN",
+#                           color=rgb(117, 117, 214), marker="o", df=df,
+#                           plotting_name="SIN_and_IN_ft"))
+#    decision_makers.append(DecisionMaker(name_pattern="resnet50_trained_on_SIN_and_IN",
+#                           color=rgb(117, 117, 214), marker="o", df=df,
+#                           plotting_name="SIN_and_IN"))    
+#    decision_makers.append(DecisionMaker(name_pattern="resnet50_trained_on_SIN",
+#                           color=rgb(117, 117, 214), marker="o", df=df,
+#                           plotting_name="SIN"))    
     decision_makers.append(DecisionMaker(name_pattern="subject-*",
                            color=rgb(165, 30, 55), marker="D", df=df,
                            plotting_name="humans"))
