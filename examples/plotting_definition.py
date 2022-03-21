@@ -29,16 +29,16 @@ def plotting_definition_template(df):
 
     decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_l",
                            color=rgb(65, 117, 117), marker="o", df=df,
-                           plotting_name="MLP-mixer Large"))
+                           plotting_name="MLP-Mixer Large"))
     decision_makers.append(DecisionMaker(name_pattern="mlp_mixer_b",
                            color=rgb(65, 117, 117), marker="o", df=df,
-                           plotting_name="MLP-mixer Base"))
+                           plotting_name="MLP-Mixer Base"))
     decision_makers.append(DecisionMaker(name_pattern="convnext_base",
                            color=rgb(150, 110, 110), marker="o", df=df,
-                           plotting_name="Convnext Base"))
+                           plotting_name="ConvNext Base"))
     decision_makers.append(DecisionMaker(name_pattern="convnext_large",
                            color=rgb(150, 110, 110), marker="o", df=df,
-                           plotting_name="Convnext Large"))
+                           plotting_name="ConvNext Large"))
     decision_makers.append(DecisionMaker(name_pattern="swin_large",
                            color=rgb(210, 150, 0), marker="v", df=df,
                            plotting_name="SWIN Large"))
@@ -50,13 +50,13 @@ def plotting_definition_template(df):
                            plotting_name="DINO"))
     decision_makers.append(DecisionMaker(name_pattern="clip_16",
                            color=rgb(80, 170, 200), marker="v", df=df,
-                           plotting_name="CLIP_16"))
+                           plotting_name="CLIP ViT-B/16"))
     decision_makers.append(DecisionMaker(name_pattern="clip",
                            color=rgb(80, 170, 200), marker="v", df=df,
-                           plotting_name="CLIP_32"))
+                           plotting_name="CLIP ViT-B/32"))
     decision_makers.append(DecisionMaker(name_pattern="clip_14",
                            color=rgb(80, 170, 200), marker="v", df=df,
-                           plotting_name="CLIP_L_14"))
+                           plotting_name="CLIP ViT/L_14"))
     decision_makers.append(DecisionMaker(name_pattern="simclr_resnet50x1",
                            color=rgb(217, 217, 214), marker="o", df=df,
                            plotting_name="SIMCLR"))
