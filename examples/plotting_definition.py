@@ -56,7 +56,7 @@ def plotting_definition_template(df):
                            plotting_name="CLIP ViT-B/32"))
     decision_makers.append(DecisionMaker(name_pattern="clip_14",
                            color=rgb(80, 170, 200), marker="v", df=df,
-                           plotting_name="CLIP ViT/L_14"))
+                           plotting_name="CLIP ViT-L/14"))
     decision_makers.append(DecisionMaker(name_pattern="simclr_resnet50x1",
                            color=rgb(217, 217, 214), marker="o", df=df,
                            plotting_name="SIMCLR"))
