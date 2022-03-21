@@ -496,7 +496,7 @@ def clip_16(model_name, *args):
     return ClipPyTorchModel(model, model_name, *args)
 
 @register_model("pytorch")
-def clip_L_14(model_name, *args):
+def clip_14(model_name, *args):
     import clip
     model, _ = clip.load("ViT-L/14")
     return ClipPyTorchModel(model, model_name, *args)

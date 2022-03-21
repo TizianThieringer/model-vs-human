@@ -46,7 +46,7 @@ def plotting_definition_template(df):
                            color=rgb(210, 150, 0), marker="v", df=df,
                            plotting_name="SWIN Base"))
     decision_makers.append(DecisionMaker(name_pattern="dino_v8",
-                           color=rgb(66, 103, 66), marker="v", df=df,
+                           color=rgb(166, 203, 166), marker="v", df=df,
                            plotting_name="DINO"))
     decision_makers.append(DecisionMaker(name_pattern="clip_16",
                            color=rgb(80, 170, 200), marker="v", df=df,
@@ -54,9 +54,9 @@ def plotting_definition_template(df):
     decision_makers.append(DecisionMaker(name_pattern="clip",
                            color=rgb(80, 170, 200), marker="v", df=df,
                            plotting_name="CLIP_32"))
-#    decision_makers.append(DecisionMaker(name_pattern="clip_L_14",
-#                           color=rgb(176, 225, 246), marker="v", df=df,
-#                           plotting_name="CLIP_L_14"))
+    decision_makers.append(DecisionMaker(name_pattern="clip_14",
+                           color=rgb(80, 170, 200), marker="v", df=df,
+                           plotting_name="CLIP_L_14"))
     decision_makers.append(DecisionMaker(name_pattern="simclr_resnet50x1",
                            color=rgb(217, 217, 214), marker="o", df=df,
                            plotting_name="SIMCLR"))
